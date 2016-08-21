@@ -5,7 +5,7 @@
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
   <meta content="utf-8" http-equiv="encoding">
 
-  <title>Test CSS Grids for Edge</title>
+  <title>CSS Grids</title>
 
   <!-- GPU rendering -->
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
@@ -14,8 +14,7 @@
   <!-- https://necolas.github.io/normalize.css/ -->
   <link rel="stylesheet" href="assets/normalize.css" type="text/css" media="screen"/>
 
-  <link rel="stylesheet" href="base.css" type="text/css" media="screen"/>
-  <link rel="stylesheet" href="grids1.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="index.css" type="text/css" media="screen"/>
 
 </head>
 
@@ -23,27 +22,21 @@
 
 
   <div id="main" class="wrapper">
+    <div class="left"></div>
 
-    <div class="header">
-      Header
-    </div>
-
-    <div class="content">
-
-      <div class="contentGrid">
-        <div class="contentLeft">
-          Content/Left
-        </div>
-
-        <div class="contentRight">
-          Content/Right
-        </div>
+    <div class="center">
+      <div class="header">
+        <h1>CSS Grids Testing</h1>
+        <div>Due to IE Edge using an old specification, this area is just running some tests.</div>
       </div>
 
-    </div>
+      <div class="content">
+        <a href="base.html">Base</a> - Inline grid.
+      </div>
 
-    <div class="footer">
-      Footer
+      <div class="footer">
+        <a href="https://github.com/laneallen/css-grids">Github</a>
+      </div>
     </div>
 
   </div>

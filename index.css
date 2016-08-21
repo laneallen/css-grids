@@ -1,0 +1,35 @@
+html, body {
+  font-family: "San Francisco",Helvetica, sans-serif;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "left center right";
+}
+
+.left {
+  grid-area: left;
+  width: 20vw;
+}
+
+.center {
+  grid-area: center;
+  width: 60vw;
+}
+
+.right {
+  grid-area: right;
+  width: 20vw;
+}
+
+.header {
+  padding: 10em 0 5em 0;
+}
+
+.footer {
+  padding: 5em 0 5em 0;
+}

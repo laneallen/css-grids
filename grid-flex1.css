@@ -1,0 +1,46 @@
+/*Grids using Flexbox, due to lack of support of Grid Layout in Edge (old spec)*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  padding: 50px;
+}
+
+.header {
+  height: 10vh;
+  width: 100vw;
+}
+
+.footer {
+  z-index: 50;
+  height: 10vh;
+  width: 100vw;
+}
+
+.sidebar {
+
+}
+
+.content {
+  height: 80vh;
+  width: 100vw;
+}
+
+.contentGrid {
+  display: flex;
+  flex-direction: row;
+}
+
+.contentLeft {
+  height: 80vh;
+  width: 50vw;
+  background-color: #f2f2f2;
+}
+
+.contentRight {
+  height: 80vh;
+  width: 50vw;
+}

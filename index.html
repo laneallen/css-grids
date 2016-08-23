@@ -28,13 +28,18 @@
       <div class="header">
         <h1>CSS Grids Testing</h1>
         <div>
-          Due to IE Edge using an old specification, this area is just running some tests. Currently only works in Safari Technology Preview 9 and Firefox Developer Edition, by default. For more information on browser support, see <a href="http://gridbyexample.com/browsers/">Grids by Example</a>
+          Due to IE Edge using an old specification, this area is just running some tests. Currently only works in Safari Technology Preview 9 and Firefox Developer Edition, by default. For more information on browser support, see <a href="http://gridbyexample.com/browsers/">Grids by Example</a>.
 
         </div>
       </div>
 
       <div class="content">
-        <a href="base.html">Base</a> - Inline grid.
+        <div class="item">
+          <a href="base.html">CSS Grid (Base)</a> - Inline CSS Grid. Simple positioned layout that has a Header, Content Area (center), and Footer. The Content Area then contains another (inline) CSS Grid that changes its layout depending on application state.
+        </div>
+        <div class="item">
+          <a href="grid-flex1.html">Flex1</a> - Flexbox version. While Flexbox allows a similar grid layout, the disadvantage is the inability to span different sections when required. For example, I have the need for Content/Left to have the ability to span the Header and Footer areas depending on state (in ReactJS).
+        </div>
       </div>
 
       <div class="footer">
